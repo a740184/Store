@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>登陆中心</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background: url(img/background.png) no-repeat;
+				background-size: cover;
+			}
+			.box{
+				background: #DDDDDD;
+				line-height: 30px;
+				font-size: 18px ;
+				width: 350px;
+				height: 300px;
+				margin: 200px auto;
+			}
+			.box .user{
+				width: 100%;
+				height: 30px;
+				margin-top: 50px;
+				margin-left: 20PX;
+			}
+			
+			.user #user{
+				position: relative;
+				top: -10px;
+				width: 200px;
+				left: 5px;
+			}
+			.box .pass{
+				width: 100%;
+				height: 30px;
+				margin-top: 30px;
+				margin-left: 20PX;
+			}
+
+			.pass #pass{
+				position: relative;
+				top: -10px;
+				width: 200px;
+				left: 5px;
+			}
+			.box .button{
+				display: block;
+				margin: 0 auto;
+				width: 120px;
+				height: 40px;
+			}
+			input{
+				height: 30px;
+			}
+			.user img{
+				position: relative;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form>
+			<div class="box">
+				<center><div style="width: 100%;height: 50px;background: #0066FF;color: white;font-size: 25px;line-height: 50px	;">食品仓储管理系统登陆</div></center>
+				<div class="user">账号：
+					<span class="user_text"><img src="img/user.png" width="30px" height="30px"/><input type="text" id="user" name="user"/></span>
+				</div><br />
+				<div class="pass">密码：
+					<span class="pass_text"><img src="img/pass.png" width="30px" height="30px"/><input type="password" id="pass" name="pass" /></span>
+				</div><br />
+					<input type="submit" value="登陆" class="button" style="width: 120px;height: 40px;font-size: 20px;background: #5599FF;color: white;"/>
+
+			</div>
+		</form>
+	</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="commodity">
+			<!--商品管理头部-->
+			<div class="commodity_title">
+				<img src="img/commodity.png" width="10px" height="10px" />
+				<strong>商品管理</strong>
+			</div>
+			<!--录入商品-->
+			<div class="insert">
+			<a href="#">录入商品类型</a>
+			<a href="#com">录入商品信息</a>
+			</div>
+			<!--搜索框-->
+			<div class="search">
+				<div class="search_text">
+					<input type="text"  placeholder="请输入内容" style="border: 0;height: 30px;width: 200px;"/>
+				</div>
+				<a href="#">搜&nbsp;索</a>
+			</div>
+			<form action="" method="post">
+				<!--显示数据-->
+				<table border="1px" bordercolor="#ddd" >
+					<th height="40px">编号</th>
+					<th>商品名</th>
+					<th>价格</th>
+					<th>规格</th>
+					<th>厂家</th>
+					<th>操作</th>
+					<tr>
+						<td height="40px">11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td width="30%"><a href="#"><img src="img/update.png"/>修改</a>
+							<a href="#"><img src="img/move.png" />移位</a>
+							<a href="#"><img src="img/up_down.png"/>上架</a></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="add_com" id="com">
+			<div class="add_com_title">
+				<img src="img/add_com.png"  width="10px" height="10px"/>
+				<strong>新增商品</strong>
+			</div>
+			<form action="" method="post">
+			<div class="com">
+				商品名：<input type="text" name="com_name" id="com_name" value="" /><br />
+				价格：<input type="text" name="com_name" id="com_name" value="" /><br />
+				厂商：<input type="text" name="com_name" id="com_name" value="" /><br />
+				规格：<input type="text" name="com_name" id="com_name" value="" /><br />
+				<input type="reset" value="清空" style="width: 100px;outline: none;cursor: pointer;" />
+				<input type="submit" value="确定" style="width: 100px;margin-left: 30px;outline: none;cursor: pointer;"/>
+			</div>
+			</form>
+		</div>
+	</body>
+</html>

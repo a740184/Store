@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="inStore">
+			<div class="inStore_title">
+				<img src="img/inStore.png" width="10px" height="10px" />
+				<strong>入库管理</strong>
+			</div>
+			<div class="box">
+				<table border="1px" bordercolor="#ddd" style="margin-top: 30px;" >
+					<th height="40px">编号</th>
+					<th>商品名</th>
+					<th>价格</th>
+					<th>规格</th>
+					<th>厂家</th>
+					<th>操作</th>
+					<tr>
+						<td height="40px">11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td width="15%"><a href="#in"><img src="img/in.png" />入库</a>
+							</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="add_in" id="in">
+			<div class="add_in_title">
+				<img src="img/add_in.png" width="10px" height="10px"/>
+				<strong>商品入库</strong>
+			</div>
+			<form action="" method="post">
+			<div class="in">
+				商品名：<input type="text" name="com_name"/>
+				仓库：<input type="text" name="ware_name" />
+				区域：<input type="text" name="area_name" />
+				货位：<select style="width: 150px;height: 30px;margin-top: 30px;font-size: 16px;">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select><br />
+				数量：<input type="text" name="num" />
+				<input type="reset"  value="清空" style="width: 100px;outline: none;cursor: pointer;"/>
+				<input type="submit" name="submit" id="submit" value="提交" style="width: 100px;margin-left: 30px;outline: none;cursor: pointer;"/>
+			</div>
+			</form>
+		</div>
+	</body>
+</html>

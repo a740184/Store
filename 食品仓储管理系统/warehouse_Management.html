@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<!--仓库管理-->
+		<div class="warehouse">
+			<!--头部-->
+			<div class="ware_title">
+				<img src="img/ware.png" width="10px" height="10px"/>
+				<strong>仓库管理</strong>
+			</div>
+			<!--下拉-->
+			<div class="select">
+				<select>
+					<option value="A仓">A仓</option>
+					<option value="A仓">A仓</option>
+					<option value="A仓">A仓</option>
+					<option value="A仓">A仓</option>
+					
+				</select>
+					<select>
+					<option value="B区">B区</option>
+					<option value="B区">B区</option>
+					<option value="B区">B区</option>
+					<option value="B区">B区</option>
+				</select>
+				<!--录入新仓库-->
+				<a href="#add">录入仓库</a>
+				<form action="" method="post">
+					<!--读取仓库列表-->
+					<table border="3px" bordercolor="#ddd">
+						<tr>
+							<th width="5%" height="30px">ID</th>
+							<th>仓库</th>
+							<th>区域</th>
+							<th>货位</th>
+							<th>商品名</th>
+						</tr>
+						<tr>
+							<td height="30px">1</td>
+							<td height="30px">哇哈哈</td>
+							<td height="30px">500ml</td>
+							<td height="30px">2.0</td>
+							<td height="30px">2.0</td>
+						</tr>
+						<tr>
+							<td height="30px">1</td>
+							<td height="30px">哇哈哈</td>
+							<td height="30px">500ml</td>
+							<td height="30px">2.0</td>
+							<td height="30px">2.0</td>
+						</tr>
+						<tr>
+						<td height="30px">1</td>
+							<td height="30px">哇哈哈</td>
+							<td height="30px">500ml</td>
+							<td height="30px">2.0</td>
+							<td height="30px">2.0</td>
+						</tr>
+						<tr>
+							<td height="30px">1</td>
+							<td height="30px">哇哈哈</td>
+							<td height="30px">500ml</td>
+							<td height="30px">2.0</td>
+							<td height="30px">2.0</td>
+						</tr>
+						
+					</table>
+					
+				</form>
+				
+			</div>
+		</div>
+		<div class="add_warehouse" id="add">
+			<div class="add_warehouse_title">
+				<img src="img/add_warehouse.png"  width="10px" height="10px"/>
+				<strong>新增仓库</strong>
+			</div>
+			<div class="add">
+				<form action="" method="post">
+					仓库：<input type="text" name="ware_name" />
+					区域：<input type="text" name="ware_name" />
+					<input type="reset" value="清空" style="width: 100px;cursor: pointer;"/>
+					<input type="submit" value="提交" style="width: 100px;margin-left: 30px;cursor: pointer;"/>
+				</form> 
+			</div>
+		</div>
+	</body>
+</html>

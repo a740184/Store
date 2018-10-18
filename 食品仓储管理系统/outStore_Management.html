@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="outStore">
+			<div class="outStore_title">
+				<img src="img/outStore.png" width="10px" height="10px"/>
+				<storng>出库管理</storng>
+			</div>
+			<div class="box">
+				<table border="1px" bordercolor="#ddd" style="margin-top: 30px;" >
+					<th height="40px">编号</th>
+					<th>商品名</th>
+					<th>价格</th>
+					<th>规格</th>
+					<th>厂家</th>
+					<th>操作</th>
+					<tr>
+						<td height="40px">11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td>11111</td>
+						<td width="15%"><a href="#out" class="a_out"><img src="img/out1.png" />出库</a>
+							</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="add_out" id="out">
+			<div class="add_out_title">
+				<img src="img/add_out.png" width="10px" height="10px"/>
+				<strong>商品出库</strong>
+			</div>
+			<form action="" method="post">
+			<div class="out">
+				商品名：<input type="text" name="com_name"/>
+				客户：<input type="text" name="ware_name" />
+				数量：<input type="text" name="num" />
+				备注：<input type="text" name="ps" />
+				<input type="reset"  value="清空" style="width: 100px;outline: none;cursor: pointer;"/>
+				<input type="submit" name="submit" id="submit" value="提交" style="width: 100px;margin-left: 30px;outline: none;cursor: pointer;"/>
+			</div>
+			</form>
+		</div>
+		</div>
+	</body>
+</html>
